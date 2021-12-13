@@ -19,7 +19,7 @@ class BannerFactory extends Factory
             'description' => $this->faker->sentences(3),
             'photo' => $this->faker->imageUrl('100','100'),
             'status' => $this->faker->randomElement(['active','inactive']),
-            'condition' => $this->faker->randomElement(['banner','promo']),
+            // 'condition' => $this->faker->randomElement(['banner','promo']),
         ];
     }
 }

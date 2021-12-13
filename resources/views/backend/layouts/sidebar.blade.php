@@ -27,7 +27,9 @@
     </div>
 </div> --}}
 <!-- /# sidebar -->
-<div class="sidebar sidebar-hide-to-small sidebar-shrink sidebar-gestures">
+
+
+{{-- <div class="sidebar sidebar-hide-to-small sidebar-shrink sidebar-gestures">
     <div class="nano">
         <div class="nano-content">
             <ul>
@@ -95,4 +97,64 @@
             </ul>
         </div>
     </div>
-</div>
+</div> --}}
+
+<!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="quixnav">
+            <div class="quixnav-scroll">
+                <ul class="metismenu" id="menu">
+                    <li class="nav-label first">Main</li>
+                    <li><a href="#"><i class="ti-home"></i><span class="nav-text">Tableau De Bord</span></a></li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false"><i class="ti-gallery"></i><span class="nav-text">Bannières</span>   
+                        </a>
+                        <ul>
+                            <li><a href="{{ route('banner.index') }}">Liste des bannière</a></li>
+                            <li><a href="{{ route('banner.create') }}">Nouveau bannière</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false"><i class="ti-view-grid"></i><span class="nav-text">Categories</span>
+                        </a>
+                        <ul>
+                            <li><a href="#">Liste des categories</a></li>
+                            <li><a href="#">Nouveau categorie</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false"><i class="ti-package"></i><span class="nav-text">Produits</span>
+                        </a>
+                        <ul>
+                            <li><a href="#">Liste des produits</a></li>
+                            <li><a href="#">Nouveau produits</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><i class="ti-shopping-cart"></i><span class="nav-text">Paniers</span></a></li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false"><i class="ti-layers-alt"></i><span class="nav-text">Commandes</span>
+                        </a>
+                        <ul>
+                            <li><a href="#">Liste des commandes</a></li>
+                            <li><a href="#">Nouveau commandes</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false"><i class="ti-user"></i><span class="nav-text">Utilisateurs</span>
+                        </a>
+                        <ul>
+                            <li><a href="#">Admins</a></li>
+                            <li><a href="#">Clients</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><i class="ti-comment"></i><span class="nav-text">Commentaires<span></a></li>
+                    <li><a href="#"><i class="ti-settings"></i><span class="nav-text">Paramètres</span> </a></li>
+                </ul>
+            </div>
+
+
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
